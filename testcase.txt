@@ -1,0 +1,40 @@
+% 7 TestCases
+% First set of Standard Canonical Coin Denomination and Target range (US coin system)
+25 10 5 1
+1 1000
+Standard
+
+% Second set of Canonical Coin Denomination and Target range
+32 16 8 4 2 1
+1 512
+Binary
+
+% Third set of Canonical Coin Denomination and Target range
+100 10 1
+1 1000
+Decimal
+
+% Set of Canonical Coin Denomination and Target range
+7 6 5 4 3 2 1
+1 100
+Counting
+
+% Set of Twin Prime number making Non-Canonical Coin Denomination and Target range
+103 101 43 41 1
+1 431
+Twin_Prime
+
+% Set of old Indian coin system (in paise): Non-Canonical Coin Denomination and Target range
+50 25 20 10 5 2 1
+1 500
+IndianCoinSystum
+
+% Set of Non-Canonical Coin Denomination and Target range
+49 36 25 16 9 4 1
+1 441
+Square
+
+% Set of Meme Number as Coin Denomination and Target range
+420 69 7 6 1
+1 666
+Meme
