@@ -209,11 +209,17 @@ The project includes:
 * Sample datasets showing minimum coins using greedy vs. DP.
 * Graphs comparing runtime and coin count for different denominations.
 
+**Example Dataset for (1, 2, 5, 10, 20, 25):**
+* `Example/DP_Example.csv`
+* `Example/Greedy_Example.csv`
+
 **Example Graphs:**
 
-* `graphs/greedy_vs_dp_comparison.png`
-* `graphs/runtime_analysis.png`
-
+* `Example/Compare_Coin_Example.png`
+* `Example/Greedy_Coin_Example.png`
+* `Example/DP_Coin_Example.png`
+* `Example/Greedy_Time_Example.png`
+* `Example/DP_Time_Example.png`
 ---
 
 ## Real-World Applications
