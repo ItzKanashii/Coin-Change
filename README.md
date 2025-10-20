@@ -19,6 +19,7 @@ config:
   layout: dagre
   theme: dark
   look: classic
+---
 flowchart LR
     A(["Start"]) --> B[/"Input coins array and target amount"/]
     B --> C["`Initialize dp[0]=0,
