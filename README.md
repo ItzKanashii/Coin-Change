@@ -1,10 +1,6 @@
 <h1 align="center" id="title">Coin-Change</h1>
 
-<p align="center"><img src="https://socialify.git.ci/ItzKanashii/Coin-Change/image?
-custom_description=My+team+Nanchaku%27s+DAA+project+on+Coin+Change+Problem.+It+contains+
-all+the+resources+used+to+make+this+project.&amp;custom_language=Python&amp;description=
-1&amp;forks=1&amp;issues=1&amp;language=1&amp;name=1&amp;owner=1&amp;pattern=Solid&amp;
-pulls=1&amp;stargazers=1&amp;theme=Dark" alt="project-image"></p>
+<p align="center"><img src="https://socialify.git.ci/ItzKanashii/Coin-Change/image?custom_description=My+team+Nanchaku%27s+DAA+project+on+Coin+Change+Problem.+It+contains+all+the+resources+used+to+make+this+project.&amp;custom_language=Python&amp;description=1&amp;forks=1&amp;issues=1&amp;language=1&amp;name=1&amp;owner=1&amp;pattern=Solid&amp;pulls=1&amp;stargazers=1&amp;theme=Dark" alt="project-image"></p>
 
 <p id="description">This project explores the Coin Change Problem comparing
 greedy algorithms and dynamic programming approaches for finding the minimum
