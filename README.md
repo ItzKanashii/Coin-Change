@@ -1,8 +1,69 @@
-# Coin-Change
-My team Nanchaku's DAA project. It contains all the resources used to make this project with codes, graphs and datasets.
-# Coin Change Problem Project
+<h1 align="center" id="title">Coin-Change</h1>
 
-This project explores the **Coin Change Problem** using both **Greedy** and **Dynamic Programming (DP)** algorithms. The main goal is to determine the **minimum number of coins** required to make a target amount with given coin denominations and to compare the efficiency and correctness of greedy vs. DP approaches.
+<p align="center"><img src="https://socialify.git.ci/ItzKanashii/Coin-Change/image?
+custom_description=My+team+Nanchaku%27s+DAA+project+on+Coin+Change+Problem.+It+contains+
+all+the+resources+used+to+make+this+project.&amp;custom_language=Python&amp;description=
+1&amp;forks=1&amp;issues=1&amp;language=1&amp;name=1&amp;owner=1&amp;pattern=Solid&amp;
+pulls=1&amp;stargazers=1&amp;theme=Dark" alt="project-image"></p>
+
+<p id="description">This project explores the Coin Change Problem comparing
+greedy algorithms and dynamic programming approaches for finding the minimum
+number of coins to reach a target value. It includes proofs for greedy correctness
+in canonical systems and demonstrates real-world applications
+where greedy strategies succeed or fail.</p>
+
+```mermaid
+---
+title: "Dynamic Programming: Coin Change Problem"
+config:
+  layout: dagre
+  theme: dark
+  look: classic
+flowchart LR
+    A(["Start"]) --> B[/"Input coins array and target amount"/]
+    B --> C["`Initialize dp[0]=0,
+     dp[1..amount] = ∞`"]
+    C --> D["For i = 1 to amount"]
+    D --> E["For each coin c in coins"]
+    E --> F{"i >= coin?"}
+    F -- Yes --> G["dp[i] = min(dp[i], dp[i-coin]+1)"]
+    F -- No --> H
+    G --> H["Next coin / End of coin loop"]
+    H --> I{"All amounts processed?"}
+    I -- No --> D
+    I -- Yes --> J{"dp[amount] == ∞?"}
+    J -- Yes --> K[/"Output: No solution"/]
+    J -- No --> L[/"Output: Minimum coins = dp[amount]"/]
+    K --> M(["End"])
+    L --> M
+```
+
+
+```mermaid
+---
+title: "Greedy Algorithm: Coin Change Problem"
+config:
+  layout: dagre
+  theme: dark
+  look: classic
+---
+flowchart LR
+    A(["Start"]) --> B[/"Input: coins (sorted desc) and target amount"/]
+    B --> C["Set count = 0"]
+    C --> D["For each coin in coins"]
+    D --> E{"amount >= coin?"}
+    E -- Yes --> F["use = amount div coin"]
+    F --> G["count = count + use"]
+    G --> H["amount = amount - use * coin"]
+    H --> I{"amount == 0?"}
+    I -- Yes --> J["Return count"]
+    I -- No --> D
+    E -- No --> D
+    D -->|No more coins| K["Return -1 (not possible)"]
+    J --> L(["End"])
+    K --> L
+
+```
 
 ---
 
