@@ -4,118 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b075ada2-9769-4376-b2a1-a3020c3844c7" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/Coin Change.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Coin Change.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coin Change/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Coin Change/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coin Change/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Coin Change/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coin Change/Example/Compare_Coin_Example.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Coin Change/Example/Compare_Coin_Example.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coin Change/Example/Compare_Coin_Example.png" beforeDir="false" afterPath="$PROJECT_DIR$/Coin Change/Example/Compare_Coin_Example.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coin Change/Example/Compare_Time_Example.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Coin Change/Example/Compare_Time_Example.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coin Change/Example/Compare_Time_Example.png" beforeDir="false" afterPath="$PROJECT_DIR$/Coin Change/Example/Compare_Time_Example.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coin Change/Example/DP_Coin_Example.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Coin Change/Example/DP_Coin_Example.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coin Change/Example/DP_Coin_Example.png" beforeDir="false" afterPath="$PROJECT_DIR$/Coin Change/Example/DP_Coin_Example.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coin Change/Example/DP_Example.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Coin Change/Example/DP_Example.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coin Change/Example/DP_Time_Example.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Coin Change/Example/DP_Time_Example.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coin Change/Example/DP_Time_Example.png" beforeDir="false" afterPath="$PROJECT_DIR$/Coin Change/Example/DP_Time_Example.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coin Change/Example/Greedy_Coin_Example.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Coin Change/Example/Greedy_Coin_Example.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coin Change/Example/Greedy_Coin_Example.png" beforeDir="false" afterPath="$PROJECT_DIR$/Coin Change/Example/Greedy_Coin_Example.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coin Change/Example/Greedy_Example.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Coin Change/Example/Greedy_Example.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coin Change/Example/Greedy_Time_Example.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Coin Change/Example/Greedy_Time_Example.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coin Change/Example/Greedy_Time_Example.png" beforeDir="false" afterPath="$PROJECT_DIR$/Coin Change/Example/Greedy_Time_Example.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coin Change/GenerateData.py" beforeDir="false" afterPath="$PROJECT_DIR$/Coin Change/GenerateData.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coin Change/projectFile/datasets/dp_binary.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Coin Change/projectFile/datasets/dp_binary.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coin Change/projectFile/datasets/dp_counting.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Coin Change/projectFile/datasets/dp_counting.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coin Change/projectFile/datasets/dp_decimal.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Coin Change/projectFile/datasets/dp_decimal.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coin Change/projectFile/datasets/dp_indiancoinsystum.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Coin Change/projectFile/datasets/dp_indiancoinsystum.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coin Change/projectFile/datasets/dp_meme.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Coin Change/projectFile/datasets/dp_meme.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coin Change/projectFile/datasets/dp_square.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Coin Change/projectFile/datasets/dp_square.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coin Change/projectFile/datasets/dp_standard.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Coin Change/projectFile/datasets/dp_standard.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coin Change/projectFile/datasets/dp_twin_prime.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Coin Change/projectFile/datasets/dp_twin_prime.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coin Change/projectFile/datasets/greedy_binary.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Coin Change/projectFile/datasets/greedy_binary.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coin Change/projectFile/datasets/greedy_counting.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Coin Change/projectFile/datasets/greedy_counting.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coin Change/projectFile/datasets/greedy_decimal.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Coin Change/projectFile/datasets/greedy_decimal.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coin Change/projectFile/datasets/greedy_indiancoinsystum.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Coin Change/projectFile/datasets/greedy_indiancoinsystum.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coin Change/projectFile/datasets/greedy_meme.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Coin Change/projectFile/datasets/greedy_meme.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coin Change/projectFile/datasets/greedy_square.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Coin Change/projectFile/datasets/greedy_square.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coin Change/projectFile/datasets/greedy_standard.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Coin Change/projectFile/datasets/greedy_standard.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coin Change/projectFile/datasets/greedy_twin_prime.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Coin Change/projectFile/datasets/greedy_twin_prime.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coin Change/projectFile/graphs/compare_coins_binary_plot.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Coin Change/projectFile/graphs/compare_coins_binary_plot.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coin Change/projectFile/graphs/compare_coins_counting_plot.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Coin Change/projectFile/graphs/compare_coins_counting_plot.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coin Change/projectFile/graphs/compare_coins_decimal_plot.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Coin Change/projectFile/graphs/compare_coins_decimal_plot.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coin Change/projectFile/graphs/compare_coins_indiancoinsystum_plot.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Coin Change/projectFile/graphs/compare_coins_indiancoinsystum_plot.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coin Change/projectFile/graphs/compare_coins_meme_plot.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Coin Change/projectFile/graphs/compare_coins_meme_plot.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coin Change/projectFile/graphs/compare_coins_square_plot.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Coin Change/projectFile/graphs/compare_coins_square_plot.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coin Change/projectFile/graphs/compare_coins_standard_plot.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Coin Change/projectFile/graphs/compare_coins_standard_plot.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coin Change/projectFile/graphs/compare_coins_twin_prime_plot.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Coin Change/projectFile/graphs/compare_coins_twin_prime_plot.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coin Change/projectFile/graphs/compare_time_binary_plot.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Coin Change/projectFile/graphs/compare_time_binary_plot.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coin Change/projectFile/graphs/compare_time_binary_plot.png" beforeDir="false" afterPath="$PROJECT_DIR$/Coin Change/projectFile/graphs/compare_time_binary_plot.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coin Change/projectFile/graphs/compare_time_counting_plot.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Coin Change/projectFile/graphs/compare_time_counting_plot.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coin Change/projectFile/graphs/compare_time_counting_plot.png" beforeDir="false" afterPath="$PROJECT_DIR$/Coin Change/projectFile/graphs/compare_time_counting_plot.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coin Change/projectFile/graphs/compare_time_decimal_plot.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Coin Change/projectFile/graphs/compare_time_decimal_plot.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coin Change/projectFile/graphs/compare_time_decimal_plot.png" beforeDir="false" afterPath="$PROJECT_DIR$/Coin Change/projectFile/graphs/compare_time_decimal_plot.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coin Change/projectFile/graphs/compare_time_indiancoinsystum_plot.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Coin Change/projectFile/graphs/compare_time_indiancoinsystum_plot.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coin Change/projectFile/graphs/compare_time_indiancoinsystum_plot.png" beforeDir="false" afterPath="$PROJECT_DIR$/Coin Change/projectFile/graphs/compare_time_indiancoinsystum_plot.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coin Change/projectFile/graphs/compare_time_meme_plot.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Coin Change/projectFile/graphs/compare_time_meme_plot.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coin Change/projectFile/graphs/compare_time_meme_plot.png" beforeDir="false" afterPath="$PROJECT_DIR$/Coin Change/projectFile/graphs/compare_time_meme_plot.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coin Change/projectFile/graphs/compare_time_square_plot.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Coin Change/projectFile/graphs/compare_time_square_plot.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coin Change/projectFile/graphs/compare_time_square_plot.png" beforeDir="false" afterPath="$PROJECT_DIR$/Coin Change/projectFile/graphs/compare_time_square_plot.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coin Change/projectFile/graphs/compare_time_standard_plot.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Coin Change/projectFile/graphs/compare_time_standard_plot.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coin Change/projectFile/graphs/compare_time_standard_plot.png" beforeDir="false" afterPath="$PROJECT_DIR$/Coin Change/projectFile/graphs/compare_time_standard_plot.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coin Change/projectFile/graphs/compare_time_twin_prime_plot.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Coin Change/projectFile/graphs/compare_time_twin_prime_plot.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coin Change/projectFile/graphs/compare_time_twin_prime_plot.png" beforeDir="false" afterPath="$PROJECT_DIR$/Coin Change/projectFile/graphs/compare_time_twin_prime_plot.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coin Change/projectFile/graphs/dp_coins_binary_plot.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Coin Change/projectFile/graphs/dp_coins_binary_plot.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coin Change/projectFile/graphs/dp_coins_counting_plot.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Coin Change/projectFile/graphs/dp_coins_counting_plot.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coin Change/projectFile/graphs/dp_coins_decimal_plot.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Coin Change/projectFile/graphs/dp_coins_decimal_plot.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coin Change/projectFile/graphs/dp_coins_indiancoinsystum_plot.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Coin Change/projectFile/graphs/dp_coins_indiancoinsystum_plot.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coin Change/projectFile/graphs/dp_coins_meme_plot.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Coin Change/projectFile/graphs/dp_coins_meme_plot.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coin Change/projectFile/graphs/dp_coins_square_plot.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Coin Change/projectFile/graphs/dp_coins_square_plot.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coin Change/projectFile/graphs/dp_coins_standard_plot.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Coin Change/projectFile/graphs/dp_coins_standard_plot.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coin Change/projectFile/graphs/dp_coins_twin_prime_plot.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Coin Change/projectFile/graphs/dp_coins_twin_prime_plot.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coin Change/projectFile/graphs/dp_time_binary_plot.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Coin Change/projectFile/graphs/dp_time_binary_plot.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coin Change/projectFile/graphs/dp_time_binary_plot.png" beforeDir="false" afterPath="$PROJECT_DIR$/Coin Change/projectFile/graphs/dp_time_binary_plot.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coin Change/projectFile/graphs/dp_time_counting_plot.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Coin Change/projectFile/graphs/dp_time_counting_plot.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coin Change/projectFile/graphs/dp_time_counting_plot.png" beforeDir="false" afterPath="$PROJECT_DIR$/Coin Change/projectFile/graphs/dp_time_counting_plot.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coin Change/projectFile/graphs/dp_time_decimal_plot.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Coin Change/projectFile/graphs/dp_time_decimal_plot.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coin Change/projectFile/graphs/dp_time_decimal_plot.png" beforeDir="false" afterPath="$PROJECT_DIR$/Coin Change/projectFile/graphs/dp_time_decimal_plot.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coin Change/projectFile/graphs/dp_time_indiancoinsystum_plot.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Coin Change/projectFile/graphs/dp_time_indiancoinsystum_plot.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coin Change/projectFile/graphs/dp_time_indiancoinsystum_plot.png" beforeDir="false" afterPath="$PROJECT_DIR$/Coin Change/projectFile/graphs/dp_time_indiancoinsystum_plot.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coin Change/projectFile/graphs/dp_time_meme_plot.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Coin Change/projectFile/graphs/dp_time_meme_plot.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coin Change/projectFile/graphs/dp_time_meme_plot.png" beforeDir="false" afterPath="$PROJECT_DIR$/Coin Change/projectFile/graphs/dp_time_meme_plot.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coin Change/projectFile/graphs/dp_time_square_plot.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Coin Change/projectFile/graphs/dp_time_square_plot.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coin Change/projectFile/graphs/dp_time_square_plot.png" beforeDir="false" afterPath="$PROJECT_DIR$/Coin Change/projectFile/graphs/dp_time_square_plot.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coin Change/projectFile/graphs/dp_time_standard_plot.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Coin Change/projectFile/graphs/dp_time_standard_plot.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coin Change/projectFile/graphs/dp_time_standard_plot.png" beforeDir="false" afterPath="$PROJECT_DIR$/Coin Change/projectFile/graphs/dp_time_standard_plot.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coin Change/projectFile/graphs/dp_time_twin_prime_plot.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Coin Change/projectFile/graphs/dp_time_twin_prime_plot.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coin Change/projectFile/graphs/dp_time_twin_prime_plot.png" beforeDir="false" afterPath="$PROJECT_DIR$/Coin Change/projectFile/graphs/dp_time_twin_prime_plot.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coin Change/projectFile/graphs/greedy_coins_binary_plot.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Coin Change/projectFile/graphs/greedy_coins_binary_plot.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coin Change/projectFile/graphs/greedy_coins_counting_plot.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Coin Change/projectFile/graphs/greedy_coins_counting_plot.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coin Change/projectFile/graphs/greedy_coins_decimal_plot.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Coin Change/projectFile/graphs/greedy_coins_decimal_plot.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coin Change/projectFile/graphs/greedy_coins_indiancoinsystum_plot.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Coin Change/projectFile/graphs/greedy_coins_indiancoinsystum_plot.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coin Change/projectFile/graphs/greedy_coins_meme_plot.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Coin Change/projectFile/graphs/greedy_coins_meme_plot.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coin Change/projectFile/graphs/greedy_coins_square_plot.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Coin Change/projectFile/graphs/greedy_coins_square_plot.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coin Change/projectFile/graphs/greedy_coins_standard_plot.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Coin Change/projectFile/graphs/greedy_coins_standard_plot.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coin Change/projectFile/graphs/greedy_coins_twin_prime_plot.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Coin Change/projectFile/graphs/greedy_coins_twin_prime_plot.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coin Change/projectFile/graphs/greedy_time_binary_plot.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Coin Change/projectFile/graphs/greedy_time_binary_plot.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coin Change/projectFile/graphs/greedy_time_binary_plot.png" beforeDir="false" afterPath="$PROJECT_DIR$/Coin Change/projectFile/graphs/greedy_time_binary_plot.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coin Change/projectFile/graphs/greedy_time_counting_plot.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Coin Change/projectFile/graphs/greedy_time_counting_plot.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coin Change/projectFile/graphs/greedy_time_counting_plot.png" beforeDir="false" afterPath="$PROJECT_DIR$/Coin Change/projectFile/graphs/greedy_time_counting_plot.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coin Change/projectFile/graphs/greedy_time_decimal_plot.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Coin Change/projectFile/graphs/greedy_time_decimal_plot.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coin Change/projectFile/graphs/greedy_time_decimal_plot.png" beforeDir="false" afterPath="$PROJECT_DIR$/Coin Change/projectFile/graphs/greedy_time_decimal_plot.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coin Change/projectFile/graphs/greedy_time_indiancoinsystum_plot.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Coin Change/projectFile/graphs/greedy_time_indiancoinsystum_plot.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coin Change/projectFile/graphs/greedy_time_indiancoinsystum_plot.png" beforeDir="false" afterPath="$PROJECT_DIR$/Coin Change/projectFile/graphs/greedy_time_indiancoinsystum_plot.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coin Change/projectFile/graphs/greedy_time_meme_plot.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Coin Change/projectFile/graphs/greedy_time_meme_plot.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coin Change/projectFile/graphs/greedy_time_meme_plot.png" beforeDir="false" afterPath="$PROJECT_DIR$/Coin Change/projectFile/graphs/greedy_time_meme_plot.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coin Change/projectFile/graphs/greedy_time_square_plot.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Coin Change/projectFile/graphs/greedy_time_square_plot.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coin Change/projectFile/graphs/greedy_time_square_plot.png" beforeDir="false" afterPath="$PROJECT_DIR$/Coin Change/projectFile/graphs/greedy_time_square_plot.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coin Change/projectFile/graphs/greedy_time_standard_plot.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Coin Change/projectFile/graphs/greedy_time_standard_plot.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coin Change/projectFile/graphs/greedy_time_standard_plot.png" beforeDir="false" afterPath="$PROJECT_DIR$/Coin Change/projectFile/graphs/greedy_time_standard_plot.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coin Change/projectFile/graphs/greedy_time_twin_prime_plot.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Coin Change/projectFile/graphs/greedy_time_twin_prime_plot.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coin Change/projectFile/graphs/greedy_time_twin_prime_plot.png" beforeDir="false" afterPath="$PROJECT_DIR$/Coin Change/projectFile/graphs/greedy_time_twin_prime_plot.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coin Change/testcase.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Coin Change/testcase.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coin Change/vaultHunter.py" beforeDir="false" afterPath="$PROJECT_DIR$/Coin Change/vaultHunter.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-    </list>
+    <list default="true" id="b075ada2-9769-4376-b2a1-a3020c3844c7" name="Changes" comment="Added dummy run and few minor documentation fixes" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -204,6 +93,21 @@
       <option name="presentableId" value="Default" />
       <updated>1758633027945</updated>
     </task>
+    <task id="LOCAL-00001" summary="Added dummy run and few minor documentation fixes">
+      <option name="closed" value="true" />
+      <created>1761199494534</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1761199494534</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Last Push" />
+    <MESSAGE value="Last few code polish" />
+    <MESSAGE value="Added dummy run and few minor documentation fixes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added dummy run and few minor documentation fixes" />
   </component>
 </project>

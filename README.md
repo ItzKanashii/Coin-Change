@@ -10,29 +10,56 @@ where greedy strategies succeed or fail.</p>
 
 ```mermaid
 ---
+title: "Dynamic Programming: Coin Change Problem"
 config:
   layout: dagre
   theme: dark
   look: classic
 ---
 flowchart LR
-    A(["Start"]) --> B[/"Input: coins and target amount"/]
-    B --> C["Initialize dp[0]=0, all others = ∞"]
-    C --> D["For x = 1 to target"]
-    D --> E["For each coin in coins"]
-    E --> F{"coin ≤ x?"}
-    F -- Yes --> G["dp[x] = min(dp[x], dp[x-coin]+1)"]
-    F -- No --> H["Skip to next coin"]
-    G --> H
-    H --> I{"More coins?"}
-    I -- Yes --> E
-    I -- No --> J{"More x?"}
-    J -- Yes --> D
-    J -- No --> K{"dp[target] == ∞?"}
-    K -- Yes --> L["Return -1"]
-    K -- No --> M["Return dp[target]"]
-    L --> N(["End"])
-    M --> N
+    A(["Start"]) --> B[/"Input coins array and target amount"/]
+    B --> C["`Initialize dp[0]=0,
+     dp[1..amount] = ∞`"]
+    C --> D["For i = 1 to amount"]
+    D --> E["For each coin c in coins"]
+    E --> F{"i >= coin?"}
+    F -- Yes --> G["dp[i] = min(dp[i], dp[i-coin]+1)"]
+    F -- No --> H
+    G --> H["Next coin / End of coin loop"]
+    H --> I{"All amounts processed?"}
+    I -- No --> D
+    I -- Yes --> J{"dp[amount] == ∞?"}
+    J -- Yes --> K[/"Output: No solution"/]
+    J -- No --> L[/"Output: Minimum coins = dp[amount]"/]
+    K --> M(["End"])
+    L --> M
+```
+
+
+```mermaid
+---
+title: "Greedy Algorithm: Coin Change Problem"
+config:
+  layout: dagre
+  theme: dark
+  look: classic
+---
+flowchart LR
+    A(["Start"]) --> B[/"Input: coins (sorted desc) and target amount"/]
+    B --> C["Set count = 0"]
+    C --> D["For each coin in coins"]
+    D --> E{"amount >= coin?"}
+    E -- Yes --> F["use = amount div coin"]
+    F --> G["count = count + use"]
+    G --> H["amount = amount - use * coin"]
+    H --> I{"amount == 0?"}
+    I -- Yes --> J["Return count"]
+    I -- No --> D
+    E -- No --> D
+    D -->|No more coins| K["Return -1 (not possible)"]
+    J --> L(["End"])
+    K --> L
+
 ```
 
 ---
@@ -182,11 +209,17 @@ The project includes:
 * Sample datasets showing minimum coins using greedy vs. DP.
 * Graphs comparing runtime and coin count for different denominations.
 
+**Example Dataset for (1, 2, 5, 10, 20, 25):**
+* `Example/DP_Example.csv`
+* `Example/Greedy_Example.csv`
+
 **Example Graphs:**
 
-* `graphs/greedy_vs_dp_comparison.png`
-* `graphs/runtime_analysis.png`
-
+* `Example/Compare_Coin_Example.png`
+* `Example/Greedy_Coin_Example.png`
+* `Example/DP_Coin_Example.png`
+* `Example/Greedy_Time_Example.png`
+* `Example/DP_Time_Example.png`
 ---
 
 ## Real-World Applications
