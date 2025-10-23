@@ -1,4 +1,3 @@
-# File: vaultHunter.py
 """
 Compute Vault Hunter coin change for a given transaction.
 

@@ -1,4 +1,4 @@
-% 7 TestCases
+% 8 TestCases
 % First set of Standard Canonical Coin Denomination and Target range (US coin system)
 25 10 5 1
 1 1000

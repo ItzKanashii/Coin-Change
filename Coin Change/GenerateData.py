@@ -36,14 +36,16 @@ def generateCoinChangeCSV(
         writer = csv.writer(f)
         writer.writerow(["Amount", "No. coins used", "Time taken"])  # header
 
+        minCoinFunction(coins, end)
         for amount in range(start, end + 1):
+            min_coins = minCoinFunction(coins, amount)
             elapsed_ms = timeit.timeit(lambda: minCoinFunction(coins, amount), number=5) * 200
-            writer.writerow([amount, minCoinFunction(coins, amount), round(elapsed_ms, 6)])
+            writer.writerow([amount, min_coins, round(elapsed_ms, 6)])
 
 
 if __name__ == "__main__":
     coins = [25, 20, 10, 5, 1]
-    target_range = (1, 1000)
+    target_range = (1, 100)
     minCoinFunction1 = coinChangeDP
     minCoinFunction2 = coinChangeGreedy
     outFilePath1 = r"Example\DP_Example.csv"
